@@ -1,0 +1,8 @@
+
+
+
+spring:
+  application:
+    name: creditShower
+  config:
+    import: optional:configserver:http://localhost:8888
