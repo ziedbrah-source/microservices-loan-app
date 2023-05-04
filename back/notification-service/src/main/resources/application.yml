@@ -1,0 +1,19 @@
+
+
+
+spring:
+  application:
+    name: database-server
+  config:
+    import: optional:configserver:http://localhost:8888
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: zicodeforces@gmail.com
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

@@ -1,0 +1,25 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+server:
+  port: 8080
+spring:
+  application:
+    name: client-application-service
+
+application:
+  config:
+    database-server-url: http://localhost:8082/api/v1/DatabaseServer
+    ocr-service-url: http://localhost:8083/api/v1/OcrService
+    commercial-service-url: http://localhost:8084/api/v1/CommercialService
+
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
