@@ -7,7 +7,9 @@ We are (a team of 3) asked in lab for a Software architecture course at INSAT to
 3. Once done, the client application is then processed by the risk management service in order to make sure that the suggested debt ratio is sufficient enough to maintain a healthy bank account balance for the borrower and that the loan can still be repaid in full as scheduled. This service also has access to the central bank database in order to assess if there are other outstanding commitments with other banks and that have not been paid. The output of this service is a final score which dictates if the borrower’s request should be approved or not.
 4. The client is then notified whether his application for a loan has been approved (in principle) or not.
 5. Next, the final step will be established by the credit service that elaborates the credit agreement to be signed and the amortization table. Both documents can be later viewed/downloaded by the client.
-
+## Tech used
+  - ReactJs
+  - Spring boot and other libraries :)
 ## Architecture
 
 The loan management module is built using a microservice architecture.
