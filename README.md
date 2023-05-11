@@ -37,6 +37,8 @@ The loan management module is built using a microservice architecture.
   
 ![Loan Management Module Architecture](https://i.ibb.co/DLf1pbB/Screenshot-from-2023-05-01-01-38-36.png)
 
+## DEMO
+[DEMO](https://youtu.be/r0C9mNViaIQ "DEMO")
 
 ## Frontend
 
